@@ -1,0 +1,24 @@
+{
+	"Main - foo": {
+		"prefix": "fmain-foo",
+		"body": [
+			"def ${1:foo()}:",
+			"    pass",
+			"",
+			"",
+			"if __name__ == \"__main__\":",
+			"    ${1:foo()}",
+			""
+		],
+		"description": "Provide a guard that prevents this module from executing if imported."
+	},
+	"Main": {
+		"prefix": "fmain",
+		"body": [
+			"if __name__ == \"__main__\":",
+			"    ${1:foo()}",
+			""
+		],
+		"description": "Provide a guard that prevents this module from executing if imported."
+	}
+}
