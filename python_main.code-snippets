@@ -1,0 +1,22 @@
+{
+	"Python Main": {
+		"scope": "python",
+		"prefix": ["python-main"],
+		"body": [
+			"#!/usr/bin/env python3",
+			"",
+			"import sys",
+			"",
+			"",
+			"def main():",
+			"\treturn 0",
+			"",
+			"",
+			"if __name__ == \"__main__\":",
+			"\tsys.exit(main())",
+			""
+		],
+		"description": "Main method for Python module.",
+		"isFileTemplate": true
+	}
+}
